@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4879FE7D1C84F7B6008FE666 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4879FE7C1C84F7B6008FE666 /* AppDelegate.swift */; };
+		4879FE7F1C84F7B6008FE666 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4879FE7E1C84F7B6008FE666 /* ViewController.swift */; };
+		4879FE821C84F7B6008FE666 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4879FE801C84F7B6008FE666 /* Main.storyboard */; };
+		4879FE841C84F7B6008FE666 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4879FE831C84F7B6008FE666 /* Assets.xcassets */; };
+		4879FE871C84F7B6008FE666 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4879FE851C84F7B6008FE666 /* LaunchScreen.storyboard */; };
+		4879FE921C84F7B7008FE666 /* MosquitoReportTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4879FE911C84F7B7008FE666 /* MosquitoReportTests.swift */; };
+		4879FE9D1C84F7B7008FE666 /* MosquitoReportUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4879FE9C1C84F7B7008FE666 /* MosquitoReportUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4879FE8E1C84F7B7008FE666 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4879FE711C84F7B6008FE666 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4879FE781C84F7B6008FE666;
+			remoteInfo = MosquitoReport;
+		};
+		4879FE991C84F7B7008FE666 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4879FE711C84F7B6008FE666 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4879FE781C84F7B6008FE666;
+			remoteInfo = MosquitoReport;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4879FE791C84F7B6008FE666 /* MosquitoReport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MosquitoReport.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4879FE7C1C84F7B6008FE666 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4879FE7E1C84F7B6008FE666 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4879FE811C84F7B6008FE666 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4879FE831C84F7B6008FE666 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4879FE861C84F7B6008FE666 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4879FE881C84F7B6008FE666 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4879FE8D1C84F7B7008FE666 /* MosquitoReportTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MosquitoReportTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4879FE911C84F7B7008FE666 /* MosquitoReportTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MosquitoReportTests.swift; sourceTree = "<group>"; };
+		4879FE931C84F7B7008FE666 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4879FE981C84F7B7008FE666 /* MosquitoReportUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MosquitoReportUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4879FE9C1C84F7B7008FE666 /* MosquitoReportUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MosquitoReportUITests.swift; sourceTree = "<group>"; };
+		4879FE9E1C84F7B7008FE666 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4879FE761C84F7B6008FE666 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4879FE8A1C84F7B7008FE666 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4879FE951C84F7B7008FE666 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4879FE701C84F7B6008FE666 = {
+			isa = PBXGroup;
+			children = (
+				4879FE7B1C84F7B6008FE666 /* MosquitoReport */,
+				4879FE901C84F7B7008FE666 /* MosquitoReportTests */,
+				4879FE9B1C84F7B7008FE666 /* MosquitoReportUITests */,
+				4879FE7A1C84F7B6008FE666 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4879FE7A1C84F7B6008FE666 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4879FE791C84F7B6008FE666 /* MosquitoReport.app */,
+				4879FE8D1C84F7B7008FE666 /* MosquitoReportTests.xctest */,
+				4879FE981C84F7B7008FE666 /* MosquitoReportUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4879FE7B1C84F7B6008FE666 /* MosquitoReport */ = {
+			isa = PBXGroup;
+			children = (
+				4879FE7C1C84F7B6008FE666 /* AppDelegate.swift */,
+				4879FE7E1C84F7B6008FE666 /* ViewController.swift */,
+				4879FE801C84F7B6008FE666 /* Main.storyboard */,
+				4879FE831C84F7B6008FE666 /* Assets.xcassets */,
+				4879FE851C84F7B6008FE666 /* LaunchScreen.storyboard */,
+				4879FE881C84F7B6008FE666 /* Info.plist */,
+			);
+			path = MosquitoReport;
+			sourceTree = "<group>";
+		};
+		4879FE901C84F7B7008FE666 /* MosquitoReportTests */ = {
+			isa = PBXGroup;
+			children = (
+				4879FE911C84F7B7008FE666 /* MosquitoReportTests.swift */,
+				4879FE931C84F7B7008FE666 /* Info.plist */,
+			);
+			path = MosquitoReportTests;
+			sourceTree = "<group>";
+		};
+		4879FE9B1C84F7B7008FE666 /* MosquitoReportUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4879FE9C1C84F7B7008FE666 /* MosquitoReportUITests.swift */,
+				4879FE9E1C84F7B7008FE666 /* Info.plist */,
+			);
+			path = MosquitoReportUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4879FE781C84F7B6008FE666 /* MosquitoReport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4879FEA11C84F7B7008FE666 /* Build configuration list for PBXNativeTarget "MosquitoReport" */;
+			buildPhases = (
+				4879FE751C84F7B6008FE666 /* Sources */,
+				4879FE761C84F7B6008FE666 /* Frameworks */,
+				4879FE771C84F7B6008FE666 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MosquitoReport;
+			productName = MosquitoReport;
+			productReference = 4879FE791C84F7B6008FE666 /* MosquitoReport.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4879FE8C1C84F7B7008FE666 /* MosquitoReportTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4879FEA41C84F7B7008FE666 /* Build configuration list for PBXNativeTarget "MosquitoReportTests" */;
+			buildPhases = (
+				4879FE891C84F7B7008FE666 /* Sources */,
+				4879FE8A1C84F7B7008FE666 /* Frameworks */,
+				4879FE8B1C84F7B7008FE666 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4879FE8F1C84F7B7008FE666 /* PBXTargetDependency */,
+			);
+			name = MosquitoReportTests;
+			productName = MosquitoReportTests;
+			productReference = 4879FE8D1C84F7B7008FE666 /* MosquitoReportTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4879FE971C84F7B7008FE666 /* MosquitoReportUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4879FEA71C84F7B7008FE666 /* Build configuration list for PBXNativeTarget "MosquitoReportUITests" */;
+			buildPhases = (
+				4879FE941C84F7B7008FE666 /* Sources */,
+				4879FE951C84F7B7008FE666 /* Frameworks */,
+				4879FE961C84F7B7008FE666 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4879FE9A1C84F7B7008FE666 /* PBXTargetDependency */,
+			);
+			name = MosquitoReportUITests;
+			productName = MosquitoReportUITests;
+			productReference = 4879FE981C84F7B7008FE666 /* MosquitoReportUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4879FE711C84F7B6008FE666 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Coding for People";
+				TargetAttributes = {
+					4879FE781C84F7B6008FE666 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					4879FE8C1C84F7B7008FE666 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 4879FE781C84F7B6008FE666;
+					};
+					4879FE971C84F7B7008FE666 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 4879FE781C84F7B6008FE666;
+					};
+				};
+			};
+			buildConfigurationList = 4879FE741C84F7B6008FE666 /* Build configuration list for PBXProject "MosquitoReport" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4879FE701C84F7B6008FE666;
+			productRefGroup = 4879FE7A1C84F7B6008FE666 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4879FE781C84F7B6008FE666 /* MosquitoReport */,
+				4879FE8C1C84F7B7008FE666 /* MosquitoReportTests */,
+				4879FE971C84F7B7008FE666 /* MosquitoReportUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4879FE771C84F7B6008FE666 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4879FE871C84F7B6008FE666 /* LaunchScreen.storyboard in Resources */,
+				4879FE841C84F7B6008FE666 /* Assets.xcassets in Resources */,
+				4879FE821C84F7B6008FE666 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4879FE8B1C84F7B7008FE666 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4879FE961C84F7B7008FE666 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4879FE751C84F7B6008FE666 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4879FE7F1C84F7B6008FE666 /* ViewController.swift in Sources */,
+				4879FE7D1C84F7B6008FE666 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4879FE891C84F7B7008FE666 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4879FE921C84F7B7008FE666 /* MosquitoReportTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4879FE941C84F7B7008FE666 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4879FE9D1C84F7B7008FE666 /* MosquitoReportUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4879FE8F1C84F7B7008FE666 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4879FE781C84F7B6008FE666 /* MosquitoReport */;
+			targetProxy = 4879FE8E1C84F7B7008FE666 /* PBXContainerItemProxy */;
+		};
+		4879FE9A1C84F7B7008FE666 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4879FE781C84F7B6008FE666 /* MosquitoReport */;
+			targetProxy = 4879FE991C84F7B7008FE666 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4879FE801C84F7B6008FE666 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4879FE811C84F7B6008FE666 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4879FE851C84F7B6008FE666 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4879FE861C84F7B6008FE666 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4879FE9F1C84F7B7008FE666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4879FEA01C84F7B7008FE666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4879FEA21C84F7B7008FE666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MosquitoReport/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coding4people.MosquitoReport;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4879FEA31C84F7B7008FE666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MosquitoReport/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coding4people.MosquitoReport;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4879FEA51C84F7B7008FE666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MosquitoReportTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coding4people.MosquitoReportTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MosquitoReport.app/MosquitoReport";
+			};
+			name = Debug;
+		};
+		4879FEA61C84F7B7008FE666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MosquitoReportTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coding4people.MosquitoReportTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MosquitoReport.app/MosquitoReport";
+			};
+			name = Release;
+		};
+		4879FEA81C84F7B7008FE666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MosquitoReportUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coding4people.MosquitoReportUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MosquitoReport;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4879FEA91C84F7B7008FE666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MosquitoReportUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coding4people.MosquitoReportUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MosquitoReport;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4879FE741C84F7B6008FE666 /* Build configuration list for PBXProject "MosquitoReport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4879FE9F1C84F7B7008FE666 /* Debug */,
+				4879FEA01C84F7B7008FE666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4879FEA11C84F7B7008FE666 /* Build configuration list for PBXNativeTarget "MosquitoReport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4879FEA21C84F7B7008FE666 /* Debug */,
+				4879FEA31C84F7B7008FE666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4879FEA41C84F7B7008FE666 /* Build configuration list for PBXNativeTarget "MosquitoReportTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4879FEA51C84F7B7008FE666 /* Debug */,
+				4879FEA61C84F7B7008FE666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4879FEA71C84F7B7008FE666 /* Build configuration list for PBXNativeTarget "MosquitoReportUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4879FEA81C84F7B7008FE666 /* Debug */,
+				4879FEA91C84F7B7008FE666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4879FE711C84F7B6008FE666 /* Project object */;
+}
