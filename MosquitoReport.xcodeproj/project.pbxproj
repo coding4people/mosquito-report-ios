@@ -14,6 +14,7 @@
 		4879FE871C84F7B6008FE666 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4879FE851C84F7B6008FE666 /* LaunchScreen.storyboard */; };
 		4879FE921C84F7B7008FE666 /* MosquitoReportTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4879FE911C84F7B7008FE666 /* MosquitoReportTests.swift */; };
 		4879FE9D1C84F7B7008FE666 /* MosquitoReportUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4879FE9C1C84F7B7008FE666 /* MosquitoReportUITests.swift */; };
+		CA8A554F616A4A4D672F3F26 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 88905D4449999E40929B17F9 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		40E896AC6D86C96589BDDA49 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		4879FE791C84F7B6008FE666 /* MosquitoReport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MosquitoReport.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4879FE7C1C84F7B6008FE666 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4879FE7E1C84F7B6008FE666 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +49,8 @@
 		4879FE981C84F7B7008FE666 /* MosquitoReportUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MosquitoReportUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4879FE9C1C84F7B7008FE666 /* MosquitoReportUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MosquitoReportUITests.swift; sourceTree = "<group>"; };
 		4879FE9E1C84F7B7008FE666 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88905D4449999E40929B17F9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9873AE71773EF43D7558036 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA8A554F616A4A4D672F3F26 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +86,8 @@
 				4879FE901C84F7B7008FE666 /* MosquitoReportTests */,
 				4879FE9B1C84F7B7008FE666 /* MosquitoReportUITests */,
 				4879FE7A1C84F7B6008FE666 /* Products */,
+				4A9C6766FEADBCB18AD18B55 /* Pods */,
+				CBE5C43F9CAC8B36738CFEAD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +132,23 @@
 			path = MosquitoReportUITests;
 			sourceTree = "<group>";
 		};
+		4A9C6766FEADBCB18AD18B55 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C9873AE71773EF43D7558036 /* Pods.debug.xcconfig */,
+				40E896AC6D86C96589BDDA49 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CBE5C43F9CAC8B36738CFEAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88905D4449999E40929B17F9 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4879FEA11C84F7B7008FE666 /* Build configuration list for PBXNativeTarget "MosquitoReport" */;
 			buildPhases = (
+				3FB22087E777F9FF495AFAB5 /* Check Pods Manifest.lock */,
 				4879FE751C84F7B6008FE666 /* Sources */,
 				4879FE761C84F7B6008FE666 /* Frameworks */,
 				4879FE771C84F7B6008FE666 /* Resources */,
+				DB71DE4D325DE323422175FE /* Embed Pods Frameworks */,
+				04399BC9C0F9715569532A4D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,6 +277,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04399BC9C0F9715569532A4D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3FB22087E777F9FF495AFAB5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DB71DE4D325DE323422175FE /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4879FE751C84F7B6008FE666 /* Sources */ = {
@@ -397,6 +472,7 @@
 		};
 		4879FEA21C84F7B7008FE666 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9873AE71773EF43D7558036 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MosquitoReport/Info.plist;
@@ -408,6 +484,7 @@
 		};
 		4879FEA31C84F7B7008FE666 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40E896AC6D86C96589BDDA49 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MosquitoReport/Info.plist;
@@ -484,6 +561,7 @@
 				4879FEA31C84F7B7008FE666 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4879FEA41C84F7B7008FE666 /* Build configuration list for PBXNativeTarget "MosquitoReportTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +570,7 @@
 				4879FEA61C84F7B7008FE666 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4879FEA71C84F7B7008FE666 /* Build configuration list for PBXNativeTarget "MosquitoReportUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +579,7 @@
 				4879FEA91C84F7B7008FE666 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
