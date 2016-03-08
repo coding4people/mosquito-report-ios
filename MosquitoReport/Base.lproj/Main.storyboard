@@ -1,26 +1,79 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="tQM-9W-4cO">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <scene sceneID="duD-VA-JRs">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MosquitoReport" customModuleProvider="target" sceneMemberID="viewController">
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yvN-hg-4eG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="m3J-ss-znp" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="dPE-1m-kQ5"/>
+                        <viewControllerLayoutGuide type="bottom" id="zTN-Lt-DmC"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="pwV-hO-sPE">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <tabBarItem key="tabBarItem" systemItem="contacts" id="O8f-Uc-yiX"/>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="119" y="545"/>
+        </scene>
+        <!--Map-->
+        <scene sceneID="1K0-vB-HND">
+            <objects>
+                <viewController id="Rpg-dJ-SAG" customClass="ViewController" customModule="MosquitoReport" customModuleProvider="target" sceneMemberID="viewController">
+                    <mapView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" id="g5x-GJ-eLB">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </mapView>
+                    <navigationItem key="navigationItem" title="Map" id="FLa-AH-mWZ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ktY-LL-8DO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1091" y="-180"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="XfF-eU-Ft2">
+            <objects>
+                <navigationController id="h1D-bx-BWc" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" systemItem="search" id="oJ4-by-B45"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="LrB-Ba-eei">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Rpg-dJ-SAG" kind="relationship" relationship="rootViewController" id="Dx9-jV-Jvw"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="evM-Jv-Pdj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="119" y="-180"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="peL-jZ-wW5">
+            <objects>
+                <tabBarController id="tQM-9W-4cO" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="iy7-b5-mto">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="h1D-bx-BWc" kind="relationship" relationship="viewControllers" id="dJz-os-0yH"/>
+                        <segue destination="m3J-ss-znp" kind="relationship" relationship="viewControllers" id="5RJ-vV-3gB"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KGO-Bj-5SQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-685" y="128"/>
         </scene>
     </scenes>
 </document>
