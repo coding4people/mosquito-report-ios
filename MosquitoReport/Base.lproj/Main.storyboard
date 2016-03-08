@@ -34,11 +34,38 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     </mapView>
-                    <navigationItem key="navigationItem" title="Map" id="FLa-AH-mWZ"/>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Map" id="FLa-AH-mWZ">
+                        <barButtonItem key="rightBarButtonItem" systemItem="action" id="nXX-BN-zIh">
+                            <connections>
+                                <segue destination="IRQ-Du-rWd" kind="show" id="oHF-QG-y8P"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ktY-LL-8DO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1091" y="-180"/>
+        </scene>
+        <!--Report-->
+        <scene sceneID="hOg-rR-OR2">
+            <objects>
+                <viewController id="IRQ-Du-rWd" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="CkQ-tC-Fj3"/>
+                        <viewControllerLayoutGuide type="bottom" id="Zj1-pX-vEG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1Wk-MF-3f6">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Report" id="slY-AU-qwG"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="14K-14-QjK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1857" y="-180"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="XfF-eU-Ft2">
