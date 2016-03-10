@@ -8,7 +8,6 @@
         <!--View Controller-->
         <scene sceneID="duD-VA-JRs">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="yvN-hg-4eG" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="m3J-ss-znp" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="dPE-1m-kQ5"/>
@@ -23,6 +22,7 @@
                     <toolbarItems/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yvN-hg-4eG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="119" y="545"/>
         </scene>
@@ -43,6 +43,9 @@
                         </barButtonItem>
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="mapView" destination="g5x-GJ-eLB" id="0nD-sI-Y3n"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ktY-LL-8DO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
